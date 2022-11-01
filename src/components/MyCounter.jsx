@@ -7,22 +7,15 @@ const MyCounter = (props) => {
     // initialize counters at countState = 0
     const [countState, setCountState] = useState(0)
 
-    function incrementByOne() {
+    function increment() {
         // countState++
-        setCountState(countState + 1)
-    }
-
-    function incrementByTwo() {
-        setCountState(countState + 2)
+        setCountState(countState + props.incCount)
     }
 
     return (
         <div>
             <div>(countState)</div>
-            <button id="oneBtn" onClick={incrementByOne}>+1</button>
-
-            <div>(countState)</div>
-            <button id="twoBtn" onClick={incrementByTwo}>+2</button>
+            <button id="incBtn" onClick={incrementNumber}>+1</button>
         </div>
     )
 
