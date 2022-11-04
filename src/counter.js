@@ -3,9 +3,9 @@ const oneBtn = document.getElementById("oneBtn");
 
 let countState = 0
 
-function incrementNumber() {
+function incBy() {
     countState++
     count.innerText = countState
 }
 
-oneBtn.addEventListener("click", incrementNumber())
+oneBtn.addEventListener("click", incCount())
