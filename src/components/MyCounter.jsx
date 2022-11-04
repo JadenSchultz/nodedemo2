@@ -1,4 +1,4 @@
-import { useState } from React
+import { useState} from React
 
 const MyCounter = (props) => {
 
@@ -7,15 +7,15 @@ const MyCounter = (props) => {
     // initialize counters at countState = 0
     const [countState, setCountState] = useState(0)
 
-    function increment() {
+    function incCount() {
         // countState++
-        setCountState(countState + props.incCount)
+        setCountState(countState + props.incBy)
     }
 
     return (
         <div>
             <div>(countState)</div>
-            <button id="incBtn" onClick={incrementNumber}>+1</button>
+            <button onClick={incCount}>(props.incBy)</button>
         </div>
     )
 
