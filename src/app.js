@@ -11,8 +11,7 @@ function App() {
             <hr />
             <MyCounter /><hr />
 
-            <MyCounter /><hr />
-
+            <MyCounter2 /><hr />
 
             <MyGitHub /><hr />
 
