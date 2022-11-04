@@ -9,9 +9,9 @@ function App() {
             <h2>Jaden Schultz - z52g614</h2>
 
             <hr />
-            <MyCounter /><hr />
+            <MyCounter incBy = {1}/><hr />
 
-            <MyCounter2 /><hr />
+            <MyCounter incBy = {2}/><hr />
 
             <MyGitHub /><hr />
 
