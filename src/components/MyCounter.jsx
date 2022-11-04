@@ -14,8 +14,8 @@ const MyCounter = (props) => {
 
     return (
         <div>
-            <div>(countState)</div>
-            <button onClick={incCount}>(props.incBy)</button>
+            <div>{countState}</div>
+            <button onClick={incCount}>{props.incBy}</button>
         </div>
     )
 
